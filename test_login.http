@@ -1,0 +1,11 @@
+POST http://localhost:8080/size2json
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image"; filename="img.png"
+
+< img.png
+--WebAppBoundary--
+
+###
+GET localhost:8080/login
